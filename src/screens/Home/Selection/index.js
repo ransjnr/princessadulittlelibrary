@@ -120,7 +120,7 @@ const Selection = ({ info, type }) => {
                 )}
             </div>
           </div>
-          <div className={styles.sidebar}>
+          {/* <div className={styles.sidebar}>
             <div className={styles.info}>
               Latest upload{' '}
               <span className={styles.smile} role="img" aria-label="fire">
@@ -157,7 +157,7 @@ const Selection = ({ info, type }) => {
               <span>Discover more</span>
               <Icon name="arrow-next" size="10" />
             </AppLink>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

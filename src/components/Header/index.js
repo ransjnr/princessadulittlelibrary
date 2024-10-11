@@ -50,9 +50,9 @@ const Headers = ({ navigation }) => {
         <div className={cn('container', styles.container)} aria-hidden="true">
           <AppLink className={styles.logo} href="/">
             <Image
-              width={256}
-              height={120}
-              objectFit='contain'
+              width={300}
+              height={150}
+              objectFit="contain"
               className={styles.pic}
               src={navigation['logo']?.imgix_url}
               alt="Logo"
@@ -85,7 +85,7 @@ const Headers = ({ navigation }) => {
             <Icon name="search" size="20" />
             Search
           </AppLink>
-          {cosmicUser?.['id'] ? (
+          {/* {cosmicUser?.['id'] ? (
             <User className={styles.user} user={cosmicUser} />
           ) : (
             <button
@@ -96,16 +96,16 @@ const Headers = ({ navigation }) => {
             >
               Login
             </button>
-          )}
-          <button
+          )} */}
+          {/* <button
             aria-label="user-information"
             aria-hidden="true"
             className={cn(styles.burger, { [styles.active]: visibleNav })}
             onClick={() => setVisibleNav(!visibleNav)}
-          />
+          /> */}
         </div>
       </header>
-      <Modal
+      {/* <Modal
         visible={visibleAuthModal}
         onClose={() => setVisibleAuthModal(false)}
       >
@@ -114,7 +114,7 @@ const Headers = ({ navigation }) => {
           handleOAuth={handleOAuth}
           handleClose={() => setVisibleAuthModal(false)}
         />
-      </Modal>
+      </Modal> */}
     </>
   )
 }

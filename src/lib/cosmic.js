@@ -11,7 +11,7 @@ const is404 = error => /not found/i.test(error?.message)
 export async function getDataByCategory(id) {
   const query = {
     'metadata.categories': [`${id}`],
-    type: 'products',
+    type: 'products',  
   }
 
   try {

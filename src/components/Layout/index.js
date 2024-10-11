@@ -31,12 +31,12 @@ const Layout = ({ children, title, navigationPaths }) => {
     <>
       <Meta />
       <PageMeta
-        title={'uNFT Marketplace'}
+        title={'Princess Adu Kids Library'}
         description={
-          'uNFT Marketplace built with Cosmic CMS, Next.js, and the Stripe API'
+          'Princess Adu kids Library is an ultramodern library located at Ablekuma providing the community with access to reading and story books to improve reading and writing.'
         }
       />
-      <div className={styles.github}>
+      {/* <div className={styles.github}>
         <p className={styles.source}>
           The source code for this marketplace app is{' '}
           <span className={styles.github}>
@@ -50,7 +50,7 @@ const Layout = ({ children, title, navigationPaths }) => {
           </span>
           .
         </p>
-      </div>
+      </div> */}
       <div className={styles.page}>
         <Header navigation={navigationPaths || navigation} />
         <main className={styles.inner}>{children}</main>
