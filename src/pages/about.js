@@ -51,7 +51,7 @@ const AboutUs = ({ navigationItems, landing }) => {
               onClick={() => handleClick(`/search`)}
               className={cn('button-stroke', styles.form)}
             >
-              Start your search
+              Donate Books
             </button>
           </div>
         </div>
