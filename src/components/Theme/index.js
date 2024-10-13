@@ -4,7 +4,7 @@ import styles from './Theme.module.sass'
 import useDarkMode from 'use-dark-mode'
 
 const Theme = ({ className }) => {
-  const darkMode = useDarkMode(false)
+  const darkMode = useDarkMode(true)
 
   return (
     <label
