@@ -138,13 +138,13 @@ const Discover = ({ info, type }) => {
             Create, explore, & collect digital art.
           </div>
           <div className={styles.header}>
-            <h3 className={cn('h3', styles.title)}>Discover</h3>
-            <button
+            <h3 className={cn('h3', styles.title)}>Gallery</h3>
+            {/* <button
               onClick={() => handleClick(`/search?category=${activeIndex}`)}
               className={cn('button-stroke', styles.button)}
             >
               Start search
-            </button>
+            </button> */}
           </div>
         </div>
         <div className={styles.top}>
@@ -170,7 +170,7 @@ const Discover = ({ info, type }) => {
                 </button>
               ))}
           </div>
-          <button
+          {/* <button
             className={cn(styles.filter, { [styles.active]: visible })}
             onClick={() => setVisible(!visible)}
           >
@@ -179,9 +179,9 @@ const Discover = ({ info, type }) => {
               <Icon name="filter" size="18" />
               <Icon name="close" size="10" />
             </div>
-          </button>
+          </button> */}
         </div>
-        <div className={cn(styles.filters, { [styles.active]: visible })}>
+        {/* <div className={cn(styles.filters, { [styles.active]: visible })}>
           <div className={styles.sorting}>
             <div className={styles.cell}>
               <div className={styles.label}>Price range</div>
@@ -208,7 +208,7 @@ const Discover = ({ info, type }) => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className={styles.list}>
           <Slider
             aria-hidden="true"

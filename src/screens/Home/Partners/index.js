@@ -58,8 +58,8 @@ const Partners = ({ info }) => {
         <div className={cn('container', styles.container)}>
           <div className={styles.top}>
             <div className={styles.box}>
-              <div className={styles.stage}>Join Us!</div>
-              <h2 className={cn('h3', styles.title)}>Reviews</h2>
+              <div className={styles.stage}>Meet the</div>
+              <h2 className={cn('h3', styles.title)}>Staff</h2>
             </div>
           </div>
           <div className={styles.wrapper}>
@@ -84,12 +84,12 @@ const Partners = ({ info }) => {
                         </div>
                       </div>
                       <div className={styles.name}>{x?.metadata?.name}</div>
-                      <div
+                      {/* <div
                         className={styles.price}
                         dangerouslySetInnerHTML={{
                           __html: x?.metadata?.position,
                         }}
-                      />
+                      /> */}
                       <div className={styles.name}>{x?.metadata?.comment}</div>
                     </div>
                   </div>

@@ -47,7 +47,6 @@ const Intro = ({ info }) => {
                     {info?.metadata?.title}
                   </h3>
                   <div className={styles.wrap}>
-                    <div className={styles.info}>Current Bid</div>
                     <div className={styles.price}>
                       {info?.metadata?.description}
                     </div>

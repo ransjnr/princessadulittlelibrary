@@ -63,7 +63,9 @@ const OAuth = ({ className, handleClose, handleOAuth, disable }) => {
           setFields(registerFields)
           handleClose()
         } else {
-          setFillFiledMessage('Please first register in Cosmic')
+          setFillFiledMessage(
+            'Please first register in  Princess Adu Little Library'
+          )
         }
       } else {
         setFillFiledMessage('Please fill all fields')
@@ -85,13 +87,13 @@ const OAuth = ({ className, handleClose, handleOAuth, disable }) => {
       <div className={cn('h4', styles.title)}>
         Authentication with{' '}
         <AppLink target="_blank" href={`https://www.cosmicjs.com`}>
-          Cosmic
+          Princess Adu Little Library
         </AppLink>
       </div>
       <div className={styles.text}>
         To create an item you need to register an account at{' '}
-        <AppLink target="_blank" href={`https://www.cosmicjs.com`}>
-          Cosmic
+        <AppLink target="_blank" href={`princessadu`}>
+          Princess Adu Little Library
         </AppLink>
       </div>
       <div className={styles.error}>{fillFiledMessage}</div>

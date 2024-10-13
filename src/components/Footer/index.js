@@ -24,29 +24,29 @@ const Footers = ({ navigation }) => {
                 objectFit="cntain"
               />
             </AppLink>
-            <div className={styles.info}>The New Creative Economy.</div>
-            <div className={styles.version}>
+            <div className={styles.info}>
+              Inspiring Reading, Creativity, and Innovation
+            </div>
+            {/* <div className={styles.version}>
               <div className={styles.details}>Dark theme</div>
               <Theme className="theme-big" />
-            </div>
+            </div> */}
           </div>
           <div className={styles.col}>
             <Group className={styles.group} item={navigation?.['menu']} />
           </div>
           <div className={styles.col}>
-            <AppLink href={`https://www.cosmicjs.com/features`}>
+            {/* <AppLink href={`https://www.cosmicjs.com/features`}>
               <p className={styles.category}>About Cosmic</p>
             </AppLink>
             <AppLink href={`https://docs.cosmicjs.com/`}>
-              <p className={styles.text}>Documentation</p>
-            </AppLink>
-            <AppLink href={`https://www.cosmicjs.com/contact`}>
+              <p className={styles.text}>Documentation</p> */}
+            {/* </AppLink> */}
+            <AppLink href={``}>
               <p className={styles.text}>Contact Us</p>
             </AppLink>
             <SocialMedia className={styles.form} />
-            <AppLink
-              href={`https://cosmicjs.us5.list-manage.com/subscribe/post?u=15433aab34aefd5450c23fd94&id=028c29b6ca`}
-            >
+            <AppLink href={``}>
               <button
                 aria-hidden="true"
                 className={cn('button', styles.button)}

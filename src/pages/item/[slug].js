@@ -94,14 +94,14 @@ const Item = ({ itemInfo, categoriesGroup, navigationItems }) => {
           <div className={styles.details}>
             <h1 className={cn('h3', styles.title)}>{itemInfo[0]?.title}</h1>
             <div className={styles.cost}>
-              <div className={cn('status-stroke-green', styles.price)}>
+              {/* <div className={cn('status-stroke-green', styles.price)}>
                 {`$${itemInfo[0]?.metadata?.price}`}
               </div>
               <div className={styles.counter}>
                 {itemInfo[0]?.metadata?.count > 0
                   ? `${itemInfo[0]?.metadata?.count} in stock`
                   : 'Not Available'}
-              </div>
+              </div> */}
             </div>
             <div className={styles.info}>
               {itemInfo[0]?.metadata?.description}
@@ -121,20 +121,20 @@ const Item = ({ itemInfo, categoriesGroup, navigationItems }) => {
               ))}
             </div>
             <div className={styles.actions}>
-              <div className={styles.dropdown}>
+              {/* <div className={styles.dropdown}>
                 <Dropdown
                   className={styles.dropdown}
                   value={option}
                   setValue={setOption}
                   options={counts}
                 />
-              </div>
+              </div> */}
               <div className={styles.btns}>
                 <button
                   className={cn('button', styles.button)}
                   onClick={handleAddToCart}
                 >
-                  Buy Now
+                  Read Now
                 </button>
               </div>
             </div>

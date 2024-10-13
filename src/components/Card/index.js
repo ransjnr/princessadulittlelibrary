@@ -41,11 +41,11 @@ const Card = ({ className, item }) => {
                 : 'Not Available'}
             </p>
           </div>
-          <div
+          {/* <div
             className={styles.bid}
             dangerouslySetInnerHTML={{ __html: item?.count }}
           />
-          <span className={styles.price}>{`$ ${item?.metadata?.price}`}</span>
+          <span className={styles.price}>{`$ ${item?.metadata?.price}`}</span> */}
         </div>
       </AppLink>
     </div>

@@ -60,9 +60,9 @@ const Selection = ({ info, type }) => {
                           </div>
                           <div className={styles.box}>
                             <div className={styles.content}>Best!</div>
-                            <div
+                            {/* <div
                               className={styles.price}
-                            >{`${x?.metadata?.price} $`}</div>
+                            >{`${x?.metadata?.price} $`}</div> */}
                           </div>
                         </div>
                       </AppLink>
@@ -99,12 +99,12 @@ const Selection = ({ info, type }) => {
                               alt="Avatar"
                               objectFit="cover"
                             />
-                            <div
+                            {/* <div
                               className={styles.price}
                             >{`$${x?.metadata?.price}`}</div>
                             <div
                               className={styles.content}
-                            >{`${x?.metadata?.count} item`}</div>
+                            >{`${x?.metadata?.count} item`}</div> */}
                           </div>
                           <button
                             className={cn(
